@@ -24,3 +24,20 @@ header, main, footer {
     max-width: 960px;
     padding: 1rem;
 }
+
+a {
+    color: yellow;
+    text-decoration: none; /* Optional: removes underline */
+}
+
+a:hover {
+    color: gold; /* Optional: changes link color when hovered */
+    text-decoration: underline; /* Optional: adds underline on hover */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+}
